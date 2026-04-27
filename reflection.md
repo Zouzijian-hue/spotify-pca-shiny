@@ -1,0 +1,7 @@
+# Optional Reflection
+
+This visualization was motivated by the question of whether Spotify audio features reveal meaningful structure between popular and less popular songs. I wanted the display to go beyond a simple popularity comparison, so I treated each song as a point in a high-dimensional audio-feature space and used dimensionality reduction to show how songs relate to each other.
+
+The main design choice was to make the dimensionality reduction interactive. The reader can filter by release year, playlist genre, popularity group, and selected audio features, and the map is recalculated from the filtered data. This makes it possible to compare whether the music space becomes more linear or more scattered, whether groups overlap or separate, and whether certain genres create denser clusters. I included both PCA and MDS because PCA gives interpretable linear components and feature loadings, while MDS emphasizes pairwise song similarity.
+
+One challenge was that popularity is not isolated from genre. In this dataset, many lower-popularity songs come from ambient, lofi, and electronic playlists, while many higher-popularity songs come from pop, rock, hip-hop, and latin playlists. Because of that, I included genre filters and feature-profile charts so the viewer can distinguish popularity patterns from genre composition rather than assuming that all differences are caused by popularity alone.

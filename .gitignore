@@ -1,0 +1,22 @@
+# R environment
+.Rhistory
+.RData
+.Rproj.user/
+
+# Shiny deployment files
+rsconnect/
+*.dcf
+
+# Log files
+*.log
+server.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.Rproj
+
+# Temporary files
+*.tmp
