@@ -1,6 +1,7 @@
 # Spotify Audio Feature Space (PCA Visualization)
 
-![App Screenshot](screenshot.jpg)
+## App Preview
+<img src="screenshot.jpg" width="800">
 
 This project explores whether high- and low-popularity Spotify songs occupy different regions in audio-feature space.
 
