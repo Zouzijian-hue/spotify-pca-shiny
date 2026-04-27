@@ -1,5 +1,7 @@
 # Spotify Audio Feature Space (PCA Visualization)
 
+![App Screenshot](screenshot.jpg)
+
 This project explores whether high- and low-popularity Spotify songs occupy different regions in audio-feature space.
 
 An interactive Shiny app is used to visualize a two-dimensional embedding of songs based on their audio characteristics.
